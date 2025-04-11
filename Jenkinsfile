@@ -7,7 +7,7 @@ pipeline{
 
     environment {
         EMAIL_RECIPIENT = 'stella.kimani@student.moringaschool.com'
-        RENDER_DEPLOY_HOOK = "https://api.render.com/deploy/srv-cvj6cqer433s73fq4tr0?key=dWix_l9i-LI"
+        RENDER_DEPLOY_HOOK = " "
 		SLACK_TOKEN = "  "
 		WEBSITE_URL = " "
     }
