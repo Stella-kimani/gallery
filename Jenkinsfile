@@ -8,8 +8,8 @@ pipeline{
     environment {
         EMAIL_RECIPIENT = 'stella.kimani@student.moringaschool.com'
         RENDER_DEPLOY_HOOK = "https://api.render.com/deploy/srv-cvj6cqer433s73fq4tr0?key=dWix_l9i-LI"
-		SLACK_TOKEN = "4919a5be-77cc-4129-9ff6-9cfff0274d13"
-		WEBSITE_URL = "https://gallery-u15x.onrender.com"
+		SLACK_TOKEN = "  "
+		WEBSITE_URL = " "
     }
 
 
