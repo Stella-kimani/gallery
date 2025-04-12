@@ -6,10 +6,10 @@ pipeline{
     }
 
     environment {
-        EMAIL_RECIPIENT = 'stella.kimani@student.moringaschool.com'
-        //RENDER_DEPLOY_HOOK = ""
+        EMAIL_RECIPIENT = "stella.kimani@student.moringaschool.com"
+        RENDER_DEPLOY_HOOK = "https://api.render.com/deploy/srv-cvt2e7q4d50c73dck2q0?key=kiY0iKaTdO4"
 		//SLACK_TOKEN = ""
-		//WEBSITE_URL = ""
+		WEBSITE_URL = "https://gallery-1-zlid.onrender.com/"
     }
 
 
@@ -33,12 +33,12 @@ pipeline{
         }
 
        
-	   // stage("Deploy to Render") {
-           // steps {
-                //echo 'Deploying application to Render...'
-               // sh "curl -X POST ${RENDER_DEPLOY_HOOK}"
-            //}
-        //}
+	    stage("Deploy to Render") {
+            steps {
+                echo 'Deploying application to Render...'
+                sh "curl -X POST ${RENDER_DEPLOY_HOOK}"
+            }
+        }
 
     }
 
